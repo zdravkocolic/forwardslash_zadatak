@@ -11,8 +11,8 @@ import '../base/provider/coordinates.dart';
 class GoogleMapScreen extends StatefulWidget {
   const GoogleMapScreen({super.key});
 
-  static const CameraPosition _initialCameraPosition =
-      CameraPosition(target: LatLng(45.267136, 19.833549), zoom: 7);
+  static const CameraPosition _initialCameraPosition = CameraPosition(
+      target: LatLng(44.81138374724598, 20.45931503176689), zoom: 7);
 
   @override
   State<GoogleMapScreen> createState() => _GoogleMapScreenState();
