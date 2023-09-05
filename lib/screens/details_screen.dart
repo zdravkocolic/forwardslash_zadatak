@@ -152,7 +152,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
       slivers: [
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(8, 70, 15, 20),
+            padding: const EdgeInsets.fromLTRB(10, 70, 15, 20),
             child: SizedBox(
               height: 400,
               width: (data ?? widget.airQuality).hourly.time.length * 7 < 1000
@@ -246,7 +246,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
     );
     return SideTitleWidget(
       axisSide: meta.axisSide,
-      space: 10,
+      space: 8,
       child: text,
     );
   }
